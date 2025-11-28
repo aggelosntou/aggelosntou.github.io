@@ -13,7 +13,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      {/* Use Vite base URL so routing works when served from a sub-path (e.g., GitHub Pages) */}
+      {/* Use BrowserRouter with Vite base so custom domain/root hosting works */}
       <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/" element={<Index />} />

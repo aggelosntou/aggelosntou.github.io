@@ -22,9 +22,12 @@ jobs:
 
       - name: Build
         env:
-          # Use repository name as the base path for GitHub Pages
-          VITE_BASE: '/aggelosntousis.com/'
+          # Root base path for custom domain hosting
+          VITE_BASE: '/'
         run: npm run build
+
+      - name: Add SPA fallback
+        run: cp dist/index.html dist/404.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
