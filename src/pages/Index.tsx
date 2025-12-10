@@ -50,18 +50,17 @@ const Index = () => {
         {/* Vision Section */}
         <section className="animate-section animate-section-delay-1 mb-20 md:mb-32">
           <p className="font-serif text-xl md:text-2xl text-foreground leading-relaxed mb-8">
-            I study the patterns that shape intelligence—both human and artificial.
+            Developing the algorithms and infrastructure that will power the next generation of AI companies.
           </p>
           
           <div className="space-y-6 text-muted-foreground">
             <p>
-              Mathematics is my language. Machine learning is my craft. I believe the most profound 
+              I believe the most profound 
               discoveries happen at the intersection of rigorous theory and fearless experimentation.
             </p>
             <p>
-              Currently pursuing a Bachelor's in Mathematics at NKUA while conducting research on 
-              sampling algorithms and computer vision. My work spans from the elegant abstractions 
-              of probability theory to the messy reality of satellite imagery.
+              Bachelor in Mathematics. Research on non-logconcave sampling algorithms.
+              Experience in computer vision and deep learning.
             </p>
             <p>
               I'm drawn to hard problems—the kind that keep you up at night and reward obsession. 
