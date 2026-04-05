@@ -46,7 +46,7 @@ const Index = () => {
             <div className="shrink-0">
               <img
                 src="/images/aggelos_ntousis.jpg"
-                alt="Aggelos Ntousis"
+                alt="Angelos Ntousis"
                 className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover object-[50%_20%] ring-1 ring-foreground/15 shadow-sm"
               />
             </div>
@@ -84,8 +84,7 @@ const Index = () => {
             </p>
 
             <p>
-              I am drawn to hard problems—those that matter, resist simplification, and shape the future of
-              technology.
+              I am always open to collaborations and conversations about anything, so feel free to contact me.
             </p>
           </div>
         </section>
