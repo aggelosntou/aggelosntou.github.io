@@ -56,12 +56,19 @@ const Index = () => {
         {/* Vision Section */}
         <section className="animate-section animate-section-delay-1 mb-20 md:mb-32">
           <p className="font-serif text-xl md:text-2xl text-foreground leading-relaxed mb-8">
-            Mathematician working on sampling algorithms, optimization, and machine learning.
+            Mathematician and ML engineer working on sampling algorithms, optimization, and machine learning at scale.
           </p>
 
           <div className="space-y-6 text-muted-foreground">
             <p>
-              My core interest lies in understanding and designing algorithms that operate at scale:
+              I currently work as an ML Infrastructure Engineer at{" "}
+              <span className="text-foreground">Optasia</span>, where I build and maintain the systems
+              that serve machine learning models to millions of customers. My work sits at the intersection
+              of distributed systems, model serving, and reliability engineering at scale.
+            </p>
+
+            <p>
+              My core research interest lies in understanding and designing algorithms that operate at scale:
               how randomness, geometry, and optimization interact in high-dimensional systems.
             </p>
 
@@ -79,11 +86,6 @@ const Index = () => {
             </p>
 
             <p>
-              My background includes mathematical research, computer vision, and deep learning, and I am now
-              expanding aggressively into systems, large-scale ML, and business.
-            </p>
-
-            <p>
               I am always open to collaborations and conversations about anything, so feel free to contact me.
             </p>
           </div>
@@ -94,6 +96,18 @@ const Index = () => {
           <h2 className="font-serif text-2xl md:text-3xl text-foreground mb-12">Work</h2>
 
           <div className="space-y-12">
+            <article>
+              <h3 className="font-serif text-lg md:text-xl text-foreground mb-2">
+                ML Infrastructure Engineer
+              </h3>
+              <p className="text-muted-foreground text-sm mb-2">Optasia · Current</p>
+              <p className="text-muted-foreground">
+                Building ML infrastructure and model serving systems at scale. Responsible for deploying
+                and maintaining machine learning pipelines that serve predictions to millions of customers,
+                with a focus on reliability, latency, and throughput at production scale.
+              </p>
+            </article>
+
             <article>
               <h3 className="font-serif text-lg md:text-xl text-foreground mb-2">
                 Langevin Sampling Algorithms
@@ -115,6 +129,14 @@ const Index = () => {
                 non-asymptotic guarantees under weak regularity assumptions using KL, Wasserstein, and total
                 variation bounds.
               </p>
+              <a
+                href="https://arxiv.org/abs/2605.24937"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-3 text-sm text-foreground/60 hover:text-foreground transition-colors duration-300"
+              >
+                arXiv:2605.24937 →
+              </a>
             </article>
 
             <article>
