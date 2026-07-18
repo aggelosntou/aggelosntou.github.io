@@ -166,6 +166,45 @@ footer {
 .article-header > p { margin: 18px 0 0; color: hsl(var(--muted-foreground)); font-size: 1.08rem; }
 .article-body { margin-top: 32px; font-family: "Benne", Georgia, serif; font-size: 1.08rem; line-height: 1.65; }
 .article-body p { margin: 0 0 1.35em; }
+.article-body pre {
+  position: relative;
+  margin: 1.75em 0;
+  padding: 1.15rem 1.25rem;
+  overflow-x: auto;
+  border: 1px solid #e5e5e2;
+  border-radius: 5px;
+  background: #f8f8f6;
+  color: #242424;
+  font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.76rem;
+  line-height: 1.6;
+  tab-size: 2;
+  -webkit-overflow-scrolling: touch;
+}
+.article-body pre code {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  white-space: pre;
+}
+.article-body :not(pre) > code {
+  padding: 0.08em 0.32em;
+  border: 1px solid #e7e7e4;
+  border-radius: 3px;
+  background: #f6f6f4;
+  color: #292929;
+  font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.78em;
+}
+.article-body pre::-webkit-scrollbar { height: 8px; }
+.article-body pre::-webkit-scrollbar-track { background: transparent; }
+.article-body pre::-webkit-scrollbar-thumb {
+  border: 2px solid #f8f8f6;
+  border-radius: 8px;
+  background: #c9c9c4;
+}
 .article-body .katex-display {
   margin: 1.5em 0;
   overflow-x: auto;
@@ -184,6 +223,12 @@ footer {
   .writing-row { grid-template-columns: 1fr; gap: 5px; }
   section { margin-top: 38px; }
   .back-link { margin-bottom: 50px; }
+  .article-body pre {
+    margin-right: -8px;
+    margin-left: -8px;
+    padding: 1rem;
+    font-size: 0.7rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

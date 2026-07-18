@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { experience, intro, life, profile, projects, writingPosts } from "@/content/site";
+import { experience, intro, life, profile, projects } from "@/content/site";
+import { writingPosts } from "@/content/posts";
 
 const formatDate = (date: string) => new Intl.DateTimeFormat("en", { year: "numeric", month: "long", day: "numeric" }).format(new Date(`${date}T00:00:00`));
 
